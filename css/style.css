@@ -223,7 +223,8 @@ a {
 }
 
 .index-countries-item {
-    width: calc(25% - 75px);
+    flex-shrink: 0;
+    width: calc(338px - 75px);
     margin-left: 75px;
     margin-bottom: 75px;
 }
@@ -231,6 +232,7 @@ a {
 
 /* INDEX-COUNTRY  */
 .index-country {
+    flex-shrink: 0;
     border-radius: 7px;
     overflow: hidden;
     background-color: var(--body-bg-color);
@@ -254,6 +256,7 @@ a {
     font-size: 18px;
     font-weight: 800;
     line-height: 26px;
+    white-space: nowrap;
 }
 
 .index-country-link {
