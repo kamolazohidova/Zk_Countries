@@ -114,54 +114,54 @@ a {
     white-space: nowrap;
 }
 
-.site-header-container {
+.site-header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.site-header-logo {
+.site-header__logo {
     font-size: 24px;
     line-height: normal;
     font-weight: 800;
     color: var(--text-color);
 }
 
-.site-header-logo:hover {
+.site-header__logo:hover {
     opacity: 0.8;
 }
 
-.site-header-logo:active {
+.site-header__logo:active {
     opacity: 0.6;
 }
 
-.site-header-theme-toggler {
+.site-header__theme-toggler {
     padding: 0;
     border: 0;
     background-color: transparent;
     color: var(--text-color);
 }
 
-.site-header-theme-toggler:hover {
+.site-header__theme-toggler:hover {
     opacity: 0.8;
 }
 
-.site-header-theme-toggler:active {
+.site-header__theme-toggler:active {
     opacity: 0.6;
 }
 
-.site-header-theme-toggler-inner {
+.site-header__theme-toggler-inner {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.site-header-theme-toggler-img {
+.site-header__theme-toggler-img {
     width: 20px;
     height: 20px;
 }
 
-.site-header-theme-toggler-text {
+.site-header__theme-toggler-text {
     margin-left: 8px;
     font-size: 16px;
     font-weight: 600;
@@ -212,7 +212,7 @@ a {
 
 
    /* INDEX-COUNTRIES   */
-.index-countries-list {
+.index-countries__list {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -222,7 +222,7 @@ a {
     list-style: none;
 }
 
-.index-countries-item {
+.index-countries__item {
     flex-shrink: 0;
     width: calc(338px - 75px);
     margin-left: 75px;
@@ -240,17 +240,17 @@ a {
     box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
 }
 
-.index-country-flag {
+.index-country__flag {
     width: 100%;
     height: 160px;
     object-fit: cover;
 }
 
-.index-country-info {
+.index-country__info {
     padding: 24px 24px 48px;
 }
 
-.index-country-name {
+.index-country__name {
     margin-top: 0;
     margin-bottom: 16px;
     font-size: 18px;
@@ -259,36 +259,36 @@ a {
     white-space: nowrap;
 }
 
-.index-country-link {
+.index-country__link {
     color: var(--text-color);
 }
 
-.index-country-link:hover {
+.index-country__link:hover {
     opacity: 0.8;
 }
 
-.index-country-link:active {
+.index-country__link:active {
     opacity: 0.6;
 }
 
-.index-country-ditails {
+.index-country__ditails {
     margin: 0;
 }
 
-.index-country-ditails-item {
+.index-country__ditails-item {
     display: flex;
     flex-wrap: wrap;
 }
 
-.index-country-ditails-item:not(:last-child) {
+.index-country__ditails-item:not(:last-child) {
     margin-bottom: 8px;
 }
 
-.index-country-ditails-title {
+.index-country__ditails-title {
     font-weight: 600;
 }
 
-.index-country-ditails-value {
+.index-country__ditails-value {
     margin-left: 4px;
 }
    
